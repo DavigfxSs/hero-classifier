@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@charset "UTF-8"
+
+
+
+.bungee-spice-regular {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1920px;
+    height: 1080px;
+    background-image: url(assets/imgbg.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+img {margin-top: 200px;}
+
+h1 {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    margin-top: 5vh;
+}
+
+
+.buttonclass{
+    margin-top: 5vh;
+}
+
+
+button {
+    width: 160px;
+    height: 80px;
+    background-color: #F09F00;
+    border: 5px solid ;
+    border-color: #CC1500;
+    font-weight: 600;
+    color: #CC1500;
+    font-family: Arial, sans-serif; /* Adiciona a font-family */
+    font-size: 1em; /* Ajuste opcional do tamanho da fonte */
+    
+}
+
+button:hover {
+    background-color: #CC1500; 
+    border-color: #F09F00;    
+    cursor: pointer;          
+    transform: scale(1.1);    
+    transition: 0.3s;   
+    color: #F09F00;
+}
