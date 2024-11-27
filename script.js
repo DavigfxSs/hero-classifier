@@ -42,6 +42,7 @@ function classificarHeroi() {
         imagemSrc = "assets/Radiante.png"; // Substitua com o caminho correto da imagem
     }
 
+
     // Exibe a mensagem com o nome e nível do herói
     alert(`O Herói de nome "${nome}" está no nível de ${nivel} com ${xp} pontos de experiência!`);
     
@@ -49,4 +50,7 @@ function classificarHeroi() {
     let heroiImg = document.getElementById("heroi-img");
     heroiImg.src = imagemSrc; // Define o caminho da imagem com base no nível
     heroiImg.alt = `${nivel} Hero Image`; // Altera o texto alternativo da imagem
+
+    let nomeHeroiH2 = document.getElementById("nome-heroi");
+    nomeHeroiH2.innerText = `${nome} - Classe: ${nivel}`; // Define o nome do herói como o conteúdo do <h2>
 }
