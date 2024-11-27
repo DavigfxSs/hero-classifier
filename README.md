@@ -18,6 +18,13 @@ Este projeto é uma aplicação interativa que classifica o nível de um herói 
 - **CSS3**: Para estilização e aprimoramento da interface.
 - **JavaScript**: Para a lógica de classificação do nível e manipulação dinâmica do DOM.
 
+## 📸 Capturas de tela
+antes do input
+![Texto alternativo da imagem](assets/Captura%20de%20tela%202024-11-27%20014853.png)
+depois do processamento
+![Texto alternativo da imagem](assets/Captura%20de%20tela%202024-11-27%20015042.png)
+
+
 ## 📂 Clone o projeto
 ```
 git clone https://github.com/DavigfxSs/hero-classifier.git
